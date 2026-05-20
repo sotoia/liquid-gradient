@@ -2,7 +2,9 @@
 
 > The animated WebGL hero you see on Framer Workshop, packaged as a 1-file Studio. Pick fonts, tune the shader, pick an entry animation, hit **Download HTML**. No build step, no dependencies.
 
-![Liquid Gradient Studio](preview.gif)
+<p align="center">
+  <img src="preview.gif" alt="Liquid Gradient Studio" width="100%">
+</p>
 
 A standalone, dependency-free port of the [Framer Workshop](https://www.framer.com/workshop/) "Liquid Gradient" shader (`LiquidGradient.mjs` in their bundle). The original algorithm is by Framer — this repo unpacks it into pure WebGL2 + a Nothing-inspired Studio so you can use it on any website.
 
