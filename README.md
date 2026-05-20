@@ -117,6 +117,22 @@ The component mounts a full-bleed `<canvas>` (`position: absolute; inset: 0`) in
 | `react/LiquidGradient.tsx` | React component, TypeScript, zero deps |
 | `shader/liquid-gradient.frag` | The fragment shader, readable and fully commented |
 | `shader/liquid-gradient.vert` | The (trivial) vertex shader |
+| `claude-skill/` | A [Claude Code](https://claude.ai/code) skill so Claude can integrate this into your projects from a vague brief. See [`claude-skill/README.md`](claude-skill/README.md) |
+
+## Use with Claude Code
+
+If you use [Claude Code](https://claude.ai/code), there's a packaged skill in [`claude-skill/`](claude-skill/) that teaches Claude to integrate Liquid Gradient into any project and tune the uniforms from vague briefs:
+
+```sh
+git clone https://github.com/sotoia/liquid-gradient.git
+cp -r liquid-gradient/claude-skill ~/.claude/skills/liquid-gradient
+```
+
+Then in any project:
+
+> *"Liquid Gradient in the hero, Vercel style but calmer"*
+
+Claude picks the right preset (10 named), fetches the component into your codebase, wires it into Next.js / Astro / Vue / Svelte / HTML, sets up the parent CSS, and reminds you about `prefers-reduced-motion`. Full instructions in [`claude-skill/README.md`](claude-skill/README.md).
 
 ## Browser support
 
