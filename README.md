@@ -154,6 +154,7 @@ Forking with attribution kept is fair use and the whole point of MIT. Re-uploadi
 - PCG hash: [Jarzynski & Olano](https://www.jcgt.org/published/0009/03/02/)
 - Oklab color space: [Björn Ottosson](https://bottosson.github.io/posts/oklab/)
 - Packaging, Studio UI, React wrapper, font loader, star-gate, animations, this README: [@sotoia](https://github.com/sotoia)
+- The `claude-skill/` packaging format is inspired by [`nothing-design-skill`](https://github.com/dominikmartn/nothing-design-skill) by [Dominik Martin](https://github.com/dominikmartn) — same idea of shipping a Claude Code skill alongside a design system.
 
 ## License
 

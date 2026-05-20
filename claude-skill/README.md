@@ -67,6 +67,12 @@ claude > Applying `vercel` preset with speed × 0.6 for the calmer feel.
          Done. Run `npm run dev` to verify.
 ```
 
+## Credits & inspiration
+
+The format (SKILL.md + `references/` folder with tokens/components/platform-mapping) is borrowed from [`nothing-design-skill`](https://github.com/dominikmartn/nothing-design-skill) by [Dominik Martin](https://github.com/dominikmartn). Same idea, different aesthetic universe.
+
+Original Liquid Gradient shader by [Framer](https://www.framer.com/). Skill packaging by [@sotoia](https://github.com/sotoia).
+
 ## License
 
 MIT — same as the parent repo.
